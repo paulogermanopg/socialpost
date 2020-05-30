@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     },
     title: {
         color: '#000',
-        fontFamily: 'shelter',
+        fontFamily: 'TravelingTypewriter',
         height: 30,
         fontSize: 28
     }

@@ -16,6 +16,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* socialpostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* socialpostTests.m */; };
+		A9D5AD208B0C45769F5A8C76 /* shelter.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA2CC4DC52A44DCADD18F0A /* shelter.otf */; };
+		C8F159AB0EE44DC4988F46D5 /* TravelingTypewriter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8FA2F90EE048A398F561BC /* TravelingTypewriter.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2D02E4901E0B4A5D006451C7 /* socialpost-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "socialpost-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		0AA2CC4DC52A44DCADD18F0A /* shelter.otf */ = {isa = PBXFileReference; name = "shelter.otf"; path = "../assets/fonts/shelter.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF8FA2F90EE048A398F561BC /* TravelingTypewriter.ttf */ = {isa = PBXFileReference; name = "TravelingTypewriter.ttf"; path = "../assets/fonts/TravelingTypewriter.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				00E356EF1AD99517003FC87E /* socialpostTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				31A2BB90180746A4B189CA45 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +161,16 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		31A2BB90180746A4B189CA45 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0AA2CC4DC52A44DCADD18F0A /* shelter.otf */,
+				CF8FA2F90EE048A398F561BC /* TravelingTypewriter.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +310,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A9D5AD208B0C45769F5A8C76 /* shelter.otf in Resources */,
+				C8F159AB0EE44DC4988F46D5 /* TravelingTypewriter.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
